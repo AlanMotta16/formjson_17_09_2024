@@ -1,0 +1,23 @@
+{
+  "name": "aula1-crud",
+  "version": "1.0.0",
+  "description": "Mein erste CRUDE",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "CRUD"
+  ],
+  "author": "LordWenzel1978 Fortnite King",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "express": "^4.20.0",
+    "express-handlebars": "^8.0.1",
+    "handlebars": "^4.7.8",
+    "mysql2": "^3.11.2",
+    "sequelize": "^6.37.3"
+  }
+}
